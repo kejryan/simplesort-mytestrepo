@@ -1,0 +1,1 @@
+/usr/local/Cellar/llvm@8/8.0.1_3/bin/opt model/model.bc -o model/model.opt.bc -O3 -fp-contract=fast

@@ -1,0 +1,1 @@
+/Users/Kevin/ELL/build/bin/compile -imap model.ell -cfn Predict -cmn model --bitcode --target pi3 -od model --fuseLinearOps True --optimizeReorderDataNodes True --globalValueAlignment 32 --header --blas true --optimize true --parallelize true --vectorize

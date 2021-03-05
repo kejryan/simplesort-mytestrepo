@@ -1,0 +1,1 @@
+/usr/local/Cellar/llvm@8/8.0.1_3/bin/llc model/model.opt.bc -o model/model.o -O3 -fp-contract=fast -filetype=obj -mtriple=armv7-linux-gnueabihf -mcpu=cortex-a53 -relocation-model=pic
